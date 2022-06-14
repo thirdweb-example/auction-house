@@ -126,7 +126,8 @@ const Create: NextPage = () => {
     <div>
       {isLoading ? (
         <p>Loading...</p>
-      ) : ownedNfts?.length > 0 ? (
+      ) : // @ts-ignore
+      ownedNfts?.length > 0 ? (
         <div className={styles.nftBoxGrid}>
           {ownedNfts?.map((nft) => (
             <div className={styles.nftBox} key={nft.metadata.id.toString()}>
