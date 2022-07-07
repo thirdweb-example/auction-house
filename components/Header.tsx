@@ -42,7 +42,7 @@ export default function Header() {
       <div className={styles.left}>
         {address ? (
           <>
-            <p>👋 {truncateAddress(address)}</p>
+            <p>👋 {(address)}</p>
           </>
         ) : (
           <div className={styles.loginContainer}>
@@ -57,7 +57,7 @@ export default function Header() {
               onClick={login}
               className={`${styles.mainButton} ${styles.noGutter}`}
             >
-              Connect Wallet
+              Sign up
             </button>
           </div>
         )}
