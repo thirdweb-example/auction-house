@@ -19,7 +19,7 @@ and enables others users to [place bids](https://portal.thirdweb.com/pre-built-c
 - Create a copy of this repo by running the below command:
 
 ```bash
-npx thirdweb create --example auction-house
+npx thirdweb create --template auction-house
 ```
 
 - Deploy your own marketplace via the [thirdweb dashboard](https://thirdweb.com/contracts)
